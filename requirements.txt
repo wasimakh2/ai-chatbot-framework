@@ -1,5 +1,5 @@
 
-Flask==0.12.4
+Flask==2.2.5
 flask-mongoengine==0.9.5
 Flask-Script==2.0.6
 Flask-Cors==3.0.3
@@ -28,3 +28,6 @@ requests==2.18.4
 
 gunicorn==19.7.1
 gevent==1.2.2
+dnspython>=2.6.1 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
